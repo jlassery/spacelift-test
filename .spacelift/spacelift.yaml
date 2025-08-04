@@ -1,3 +1,6 @@
+ignore:
+  - .spacelift/**
+  
 hooks:
   before_apply:
     - name: Configure kubeconfig
